@@ -12,6 +12,7 @@ const BillBoardsPage = async ({ params }: { params: { storeId: string } }) => {
     },
     orderBy: {
       createdAt: "desc",
+      
     },
   });
 
